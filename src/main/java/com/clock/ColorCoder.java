@@ -1,7 +1,6 @@
 package com.clock;
 
 public class ColorCoder {
-    private static final String OFF = "O";
 
     public static String toFourDigitColorCode(int onCount, Color onColor){
         if (onCount < 0 || onCount > 4){
